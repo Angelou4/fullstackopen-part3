@@ -1,0 +1,39 @@
+GET http://localhost:3001/api/persons
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Angelo Cassina",
+  "number": "912345678"
+}
+
+
+###
+GET http://localhost:3001/api/persons
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Angelo Cassina",
+  "number": "912345678"
+}
+
+###
+GET http://localhost:3001/api/persons
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Persona sin número"
+}
+
+###
+
+GET http://localhost:3001/api/persons
